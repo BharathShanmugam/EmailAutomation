@@ -1,0 +1,70 @@
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_header_value with data[63:114]
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_header_field with data[116:128]
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_header_value with data[130:195]
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_part_data with data[199:5690]
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-10-19 21:03:29,516 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-10-19 21:16:43,077 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-10-19 21:16:43,078 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2024-10-19 21:16:43,078 - multipart.multipart - DEBUG - Calling on_header_value with data[63:114]
+2024-10-19 21:16:43,078 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-10-19 21:16:43,078 - multipart.multipart - DEBUG - Calling on_header_field with data[116:128]
+2024-10-19 21:16:43,078 - multipart.multipart - DEBUG - Calling on_header_value with data[130:195]
+2024-10-19 21:16:43,078 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-10-19 21:16:43,078 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-10-19 21:16:43,079 - multipart.multipart - DEBUG - Calling on_part_data with data[199:6992]
+2024-10-19 21:16:43,079 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-10-19 21:16:43,079 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_header_value with data[63:114]
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_header_field with data[116:128]
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_header_value with data[130:195]
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_part_data with data[199:6992]
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-10-19 21:25:37,295 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-10-19 21:49:46,821 - multipart.multipart - DEBUG - Calling on_part_begin with no data
+2024-10-19 21:49:46,821 - multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2024-10-19 21:49:46,821 - multipart.multipart - DEBUG - Calling on_header_value with data[63:114]
+2024-10-19 21:49:46,821 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-10-19 21:49:46,821 - multipart.multipart - DEBUG - Calling on_header_field with data[116:128]
+2024-10-19 21:49:46,821 - multipart.multipart - DEBUG - Calling on_header_value with data[130:195]
+2024-10-19 21:49:46,821 - multipart.multipart - DEBUG - Calling on_header_end with no data
+2024-10-19 21:49:46,821 - multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2024-10-19 21:49:46,821 - multipart.multipart - DEBUG - Calling on_part_data with data[199:6992]
+2024-10-19 21:49:46,821 - multipart.multipart - DEBUG - Calling on_part_end with no data
+2024-10-19 21:49:46,822 - multipart.multipart - DEBUG - Calling on_end with no data
+2024-10-19 21:49:54,020 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-10-19 21:49:54,021 - sqlalchemy.engine.Engine - INFO - INSERT INTO sentemail (email, subject, replied, date_sent) VALUES (%(email)s, %(subject)s, %(replied)s, %(date_sent)s) RETURNING sentemail.id
+2024-10-19 21:49:54,021 - sqlalchemy.engine.Engine - INFO - [generated in 0.00022s] {'email': 'bharathshanmugam12@gmail.com', 'subject': 'Inquiry Regarding nan', 'replied': False, 'date_sent': datetime.datetime(2024, 10, 19, 16, 19, 54, 17705, tzinfo=datetime.timezone.utc)}
+2024-10-19 21:49:54,179 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-10-19 21:49:55,964 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-10-19 21:49:55,965 - sqlalchemy.engine.Engine - INFO - INSERT INTO retryemail (email, subject, reason, date_failed) VALUES (%(email)s, %(subject)s, %(reason)s, %(date_failed)s) RETURNING retryemail.id
+2024-10-19 21:49:55,965 - sqlalchemy.engine.Engine - INFO - [generated in 0.00027s] {'email': nan, 'subject': 'Inquiry Regarding intern', 'reason': 'Failed to send email', 'date_failed': datetime.datetime(2024, 10, 19, 16, 19, 55, 963492, tzinfo=datetime.timezone.utc)}
+2024-10-19 21:49:56,035 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-10-19 21:49:59,170 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-10-19 21:49:59,170 - sqlalchemy.engine.Engine - INFO - INSERT INTO retryemail (email, subject, reason, date_failed) VALUES (%(email)s, %(subject)s, %(reason)s, %(date_failed)s) RETURNING retryemail.id
+2024-10-19 21:49:59,170 - sqlalchemy.engine.Engine - INFO - [cached since 3.205s ago] {'email': nan, 'subject': 'Inquiry Regarding nan', 'reason': 'Failed to send email', 'date_failed': datetime.datetime(2024, 10, 19, 16, 19, 59, 169428, tzinfo=datetime.timezone.utc)}
+2024-10-19 21:49:59,172 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-10-19 21:50:03,159 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-10-19 21:50:03,160 - sqlalchemy.engine.Engine - INFO - INSERT INTO retryemail (email, subject, reason, date_failed) VALUES (%(email)s, %(subject)s, %(reason)s, %(date_failed)s) RETURNING retryemail.id
+2024-10-19 21:50:03,160 - sqlalchemy.engine.Engine - INFO - [cached since 7.194s ago] {'email': nan, 'subject': 'Inquiry Regarding nan', 'reason': 'Failed to send email', 'date_failed': datetime.datetime(2024, 10, 19, 16, 20, 3, 159049, tzinfo=datetime.timezone.utc)}
+2024-10-19 21:50:03,161 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-10-19 21:51:38,465 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-10-19 21:51:38,467 - sqlalchemy.engine.Engine - INFO - SELECT sentemail.id, sentemail.email, sentemail.subject, sentemail.replied, sentemail.date_sent 
+FROM sentemail
+2024-10-19 21:51:38,467 - sqlalchemy.engine.Engine - INFO - [generated in 0.00030s] {}
+2024-10-19 21:51:38,471 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2024-10-19 21:51:50,289 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-10-19 21:51:50,290 - sqlalchemy.engine.Engine - INFO - SELECT retryemail.id, retryemail.email, retryemail.subject, retryemail.reason, retryemail.date_failed 
+FROM retryemail
+2024-10-19 21:51:50,290 - sqlalchemy.engine.Engine - INFO - [generated in 0.00026s] {}
+2024-10-19 21:51:50,291 - sqlalchemy.engine.Engine - INFO - ROLLBACK
