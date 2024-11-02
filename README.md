@@ -1,7 +1,3 @@
-Here's a detailed flow for your APIs, models, and services that you can include in a `README.md` file to document your project.
-
----
-
 # Email Automation System
 
 ## Overview
